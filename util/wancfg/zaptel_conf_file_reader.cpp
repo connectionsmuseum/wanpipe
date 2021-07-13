@@ -232,6 +232,10 @@ const char *zaptel_conf_file_reader::sigtype_to_str(const int sig)
 		return "FXO Groundstart";
 	case ZT_SIG_FXOKS:
 		return "FXO Kewlstart";
+	case ZT_SIG_RPO:
+		return "Revertive Pulse Originating";
+	case ZT_SIG_RPT:
+		return "Revertive Pulse Terminating";
 	case ZT_SIG_CAS:
 		return "CAS / User";
 	case ZT_SIG_DACS:
@@ -454,6 +458,12 @@ int zaptel_conf_file_reader::chanconfig(char *keyword, char *args)
 			} else if (!strcasecmp(keyword, "fxoks")) {
 				cc[x].sigtype = ZT_SIG_FXOKS;
 				sig[x] = sigtype_to_str(cc[x].sigtype);
+            } else if (!strcasecmp(keyword, "rpo")) {
+                cc[x].sigtype = DAHDI_SIG_RPO;
+                sig[x] = sigtype_to_str(cc[x].sigtype);
+            } else if (!strcasecmp(keyword, "rpt")) {
+                cc[x].sigtype = DAHDI_SIG_RPT;
+                sig[x] = sigtype_to_str(cc[x].sigtype);
 			} else if (!strcasecmp(keyword, "cas") || !strcasecmp(keyword, "user")) {
 				if (parse_idle(&cc[x].idlebits, idle))
 					return -1;

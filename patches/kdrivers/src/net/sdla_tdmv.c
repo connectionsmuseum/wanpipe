@@ -1315,7 +1315,7 @@ static int wp_tdmv_software_init(wan_tdmv_t *wan_tdmv)
 				ZT_SIG_EM | ZT_SIG_CLEAR | ZT_SIG_EM_E1 | 
 				ZT_SIG_FXSLS | ZT_SIG_FXSGS |  
 				ZT_SIG_FXSKS | ZT_SIG_FXOLS | ZT_SIG_DACS_RBS |
-				ZT_SIG_FXOGS | ZT_SIG_FXOKS | ZT_SIG_CAS 
+				ZT_SIG_FXOGS | ZT_SIG_FXOKS | ZT_SIG_CAS | ZT_SIG_RPO | ZT_SIG_RPT
 #if defined(CONFIG_PRODUCT_WANPIPE_TDM_VOICE_DCHAN) && defined(CONFIG_PRODUCT_WANPIPE_TDM_VOICE_DCHAN_ZAPTEL)
  				| ZT_SIG_HARDHDLC 
 #endif
@@ -1615,6 +1615,10 @@ static char *wp_tdmv_sigstr(int sig)
 			return "FXOKS";
 		case ZT_SIG_FXOGS:
 			return "FXOGS";
+		case ZT_SIG_RPO:
+			return "RPO";
+		case ZT_SIG_RPT:
+			return "RPT";
 		case ZT_SIG_EM:
 			return "E&M";
 		case ZT_SIG_CLEAR:

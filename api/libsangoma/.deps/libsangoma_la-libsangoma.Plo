@@ -1,0 +1,542 @@
+libsangoma_la-libsangoma.lo: libsangoma.c /usr/include/stdc-predef.h \
+ libsangoma-pvt.h libsangoma.h /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/xlocale.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/ctype.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/sys/ioctl.h \
+ /usr/include/x86_64-linux-gnu/bits/ioctls.h \
+ /usr/include/x86_64-linux-gnu/asm/ioctls.h \
+ /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
+ /usr/include/x86_64-linux-gnu/asm/ioctl.h \
+ /usr/include/asm-generic/ioctl.h \
+ /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
+ /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
+ /usr/include/x86_64-linux-gnu/sys/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h \
+ /usr/include/x86_64-linux-gnu/sys/signal.h /usr/include/signal.h \
+ /usr/include/x86_64-linux-gnu/bits/signum.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /usr/include/x86_64-linux-gnu/sys/wait.h \
+ /usr/include/x86_64-linux-gnu/sys/resource.h \
+ /usr/include/x86_64-linux-gnu/bits/resource.h /usr/include/netinet/in.h \
+ /usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string2.h /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h /usr/include/net/if.h \
+ /usr/include/poll.h /usr/include/x86_64-linux-gnu/sys/poll.h \
+ /usr/include/x86_64-linux-gnu/bits/poll.h /usr/include/pthread.h \
+ /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ ../../patches/kdrivers/include/wanpipe_api.h \
+ ../../patches/kdrivers/include/aft_core_user.h \
+ ../../patches/kdrivers/include/wanpipe_includes.h \
+ ../../patches/kdrivers/include/wanpipe_debug.h \
+ ../../patches/kdrivers/include/wanpipe_defines.h \
+ ../../patches/kdrivers/include/wanpipe_version.h \
+ ../../patches/kdrivers/include/wanpipe_abstr_types.h \
+ ../../patches/kdrivers/include/wanpipe_common.h \
+ ../../patches/kdrivers/include/wanpipe_cfg_def.h \
+ ../../patches/kdrivers/include/wanpipe_logger.h \
+ ../../patches/kdrivers/include/wanpipe_cfg.h \
+ ../../patches/kdrivers/include/sdla_front_end.h \
+ ../../patches/kdrivers/include/sdla_56k.h \
+ ../../patches/kdrivers/include/sdla_te1.h \
+ ../../patches/kdrivers/include/sdla_te3.h \
+ ../../patches/kdrivers/include/sdla_remora.h \
+ ../../patches/kdrivers/include/aft_core_options.h \
+ ../../patches/kdrivers/include/sdla_a600_remora.h \
+ ../../patches/kdrivers/include/sdla_b800_remora.h \
+ ../../patches/kdrivers/include/sdla_remora_proslic.h \
+ ../../patches/kdrivers/include/wanpipe_events.h \
+ ../../patches/kdrivers/include/sdla_bri.h \
+ ../../patches/kdrivers/include/xhfc24succ.h \
+ ../../patches/kdrivers/include/sdla_serial.h \
+ ../../patches/kdrivers/include/sdla_gsm.h \
+ ../../patches/kdrivers/include/wanpipe_cfg_fr.h \
+ ../../patches/kdrivers/include/wanpipe_cfg_sppp.h \
+ ../../patches/kdrivers/include/wanpipe_cfg_hdlc.h \
+ ../../patches/kdrivers/include/wanpipe_cfg_atm.h \
+ ../../patches/kdrivers/include/wanpipe_cfg_lip.h \
+ ../../patches/kdrivers/include/wanpipe_cfg_adsl.h \
+ ../../patches/kdrivers/include/wanpipe_wanrouter.h \
+ ../../patches/kdrivers/include/wanpipe_api_hdr.h \
+ ../../patches/kdrivers/include/wanpipe_api_iface.h \
+ ../../patches/kdrivers/include/sdlasfm.h \
+ ../../patches/kdrivers/include/if_wanpipe.h /usr/include/linux/sockios.h \
+ ../../patches/kdrivers/include/wanpipe_codec_iface.h \
+ ../../patches/kdrivers/include/wanpipe_api_legacy.h \
+ ../../patches/kdrivers/include/wanpipe_api_deprecated.h \
+ ../../patches/kdrivers/include/wanpipe_events.h wanec/wanec_api.h \
+ ../../patches/kdrivers/wanec/wanec_iface_api.h \
+ ../../patches/kdrivers/include/wanpipe_includes.h \
+ ../../patches/kdrivers/include/wanpipe_defines.h \
+ ../../patches/kdrivers/include/wanpipe_cfg.h \
+ ../../patches/kdrivers/wanec/wanec_iface.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_api.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/octdef.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/octosdependant.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/octtype.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_defines.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_errors.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_apiud.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_tlv_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_chip_stats_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_tsi_cnct_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_mixer_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_events_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_tone_detection_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_conf_bridge_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_playout_buf_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_adpcm_chan_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_phasing_tsst_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_channel_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_interrupts_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_remote_debug_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_debug_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_chip_open_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_api_inst.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_interrupts_pub.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_tsi_cnct_pub.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_events_pub.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_tone_detection_pub.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_mixer_pub.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_conf_bridge_pub.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_playout_buf_pub.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_channel_pub.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_remote_debug_pub.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_debug_pub.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_chip_open_pub.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_chip_stats_pub.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_adpcm_chan_pub.h \
+ ../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_phasing_tsst_pub.h \
+ ../../patches/kdrivers/include/wanpipe_kernel.h \
+ /usr/include/linux/version.h
+
+/usr/include/stdc-predef.h:
+
+libsangoma-pvt.h:
+
+libsangoma.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/ctype.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/include/x86_64-linux-gnu/sys/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/x86_64-linux-gnu/sys/ioctl.h:
+
+/usr/include/x86_64-linux-gnu/bits/ioctls.h:
+
+/usr/include/x86_64-linux-gnu/asm/ioctls.h:
+
+/usr/include/asm-generic/ioctls.h:
+
+/usr/include/linux/ioctl.h:
+
+/usr/include/x86_64-linux-gnu/asm/ioctl.h:
+
+/usr/include/asm-generic/ioctl.h:
+
+/usr/include/x86_64-linux-gnu/bits/ioctl-types.h:
+
+/usr/include/x86_64-linux-gnu/sys/ttydefaults.h:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/x86_64-linux-gnu/sys/signal.h:
+
+/usr/include/signal.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/x86_64-linux-gnu/sys/wait.h:
+
+/usr/include/x86_64-linux-gnu/sys/resource.h:
+
+/usr/include/x86_64-linux-gnu/bits/resource.h:
+
+/usr/include/netinet/in.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/in.h:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/string2.h:
+
+/usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
+
+/usr/include/net/if.h:
+
+/usr/include/poll.h:
+
+/usr/include/x86_64-linux-gnu/sys/poll.h:
+
+/usr/include/x86_64-linux-gnu/bits/poll.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+../../patches/kdrivers/include/wanpipe_api.h:
+
+../../patches/kdrivers/include/aft_core_user.h:
+
+../../patches/kdrivers/include/wanpipe_includes.h:
+
+../../patches/kdrivers/include/wanpipe_debug.h:
+
+../../patches/kdrivers/include/wanpipe_defines.h:
+
+../../patches/kdrivers/include/wanpipe_version.h:
+
+../../patches/kdrivers/include/wanpipe_abstr_types.h:
+
+../../patches/kdrivers/include/wanpipe_common.h:
+
+../../patches/kdrivers/include/wanpipe_cfg_def.h:
+
+../../patches/kdrivers/include/wanpipe_logger.h:
+
+../../patches/kdrivers/include/wanpipe_cfg.h:
+
+../../patches/kdrivers/include/sdla_front_end.h:
+
+../../patches/kdrivers/include/sdla_56k.h:
+
+../../patches/kdrivers/include/sdla_te1.h:
+
+../../patches/kdrivers/include/sdla_te3.h:
+
+../../patches/kdrivers/include/sdla_remora.h:
+
+../../patches/kdrivers/include/aft_core_options.h:
+
+../../patches/kdrivers/include/sdla_a600_remora.h:
+
+../../patches/kdrivers/include/sdla_b800_remora.h:
+
+../../patches/kdrivers/include/sdla_remora_proslic.h:
+
+../../patches/kdrivers/include/wanpipe_events.h:
+
+../../patches/kdrivers/include/sdla_bri.h:
+
+../../patches/kdrivers/include/xhfc24succ.h:
+
+../../patches/kdrivers/include/sdla_serial.h:
+
+../../patches/kdrivers/include/sdla_gsm.h:
+
+../../patches/kdrivers/include/wanpipe_cfg_fr.h:
+
+../../patches/kdrivers/include/wanpipe_cfg_sppp.h:
+
+../../patches/kdrivers/include/wanpipe_cfg_hdlc.h:
+
+../../patches/kdrivers/include/wanpipe_cfg_atm.h:
+
+../../patches/kdrivers/include/wanpipe_cfg_lip.h:
+
+../../patches/kdrivers/include/wanpipe_cfg_adsl.h:
+
+../../patches/kdrivers/include/wanpipe_wanrouter.h:
+
+../../patches/kdrivers/include/wanpipe_api_hdr.h:
+
+../../patches/kdrivers/include/wanpipe_api_iface.h:
+
+../../patches/kdrivers/include/sdlasfm.h:
+
+../../patches/kdrivers/include/if_wanpipe.h:
+
+/usr/include/linux/sockios.h:
+
+../../patches/kdrivers/include/wanpipe_codec_iface.h:
+
+../../patches/kdrivers/include/wanpipe_api_legacy.h:
+
+../../patches/kdrivers/include/wanpipe_api_deprecated.h:
+
+../../patches/kdrivers/include/wanpipe_events.h:
+
+wanec/wanec_api.h:
+
+../../patches/kdrivers/wanec/wanec_iface_api.h:
+
+../../patches/kdrivers/include/wanpipe_includes.h:
+
+../../patches/kdrivers/include/wanpipe_defines.h:
+
+../../patches/kdrivers/include/wanpipe_cfg.h:
+
+../../patches/kdrivers/wanec/wanec_iface.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_api.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/octdef.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/octosdependant.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/octtype.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_defines.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_errors.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_apiud.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_tlv_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_chip_stats_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_tsi_cnct_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_mixer_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_events_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_tone_detection_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_conf_bridge_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_playout_buf_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_adpcm_chan_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_phasing_tsst_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_channel_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_interrupts_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_remote_debug_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_debug_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_chip_open_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_api_inst.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_interrupts_pub.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_tsi_cnct_pub.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_events_pub.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_tone_detection_pub.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_mixer_pub.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_conf_bridge_pub.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_playout_buf_pub.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_channel_pub.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_remote_debug_pub.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_debug_pub.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_chip_open_pub.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_chip_stats_pub.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_adpcm_chan_pub.h:
+
+../../patches/kdrivers/wanec/oct6100_api/include/oct6100api/oct6100_phasing_tsst_pub.h:
+
+../../patches/kdrivers/include/wanpipe_kernel.h:
+
+/usr/include/linux/version.h:

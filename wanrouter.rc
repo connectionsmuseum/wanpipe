@@ -40,4 +40,4 @@ WAN_DYN_WANCONFIG=NO
 WAN_SCRIPTS_DIR=/etc/wanpipe/scripts
 WAN_FIRMWARE_DIR=/etc/wanpipe/firmware
 WAN_DEVICES_REV_STOP_ORDER=YES
-WAN_DEVICES="wanpipe1"
+WAN_DEVICES="wanpipe1 wanpipe2 wanpipe3 wanpipe4 "

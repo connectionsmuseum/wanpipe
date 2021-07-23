@@ -479,7 +479,7 @@ static int wp_remora_zap_hooksig(struct zt_chan *chan, zt_txsig_t txsig)
 			switch(chan->sig) {
 			case ZT_SIG_EM:
 			case ZT_SIG_FXOKS:
-			case ZT_SIG_FXOLS:		// XXX SA owo whats this?
+			case ZT_SIG_FXOLS:
 				wr->mod[chan->chanpos-1].fxs.lasttxhook =
 					fe->rm_param.mod[chan->chanpos-1].u.fxs.idletxhookstate;
 				break;

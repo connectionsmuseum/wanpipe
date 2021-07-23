@@ -1,0 +1,82 @@
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:357:		wanif_cfg->u.aft.sw_hdlc=1;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:358:		wanif_cfg->u.aft.seven_bit_hdlc=1;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:361:		wanif_cfg->u.aft.sw_hdlc=1;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:362:		wanif_cfg->u.aft.mtp1_filter=1;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:363:		wanif_cfg->u.aft.hdlc_repeat=1;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:376:	wanif_cfg->u.aft.mru = chunk_ms*8;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:377:	wanif_cfg->u.aft.mtu = chunk_ms*8;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:386:	sprintf(wanif_cfg->usedby, "DATA_API");
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:389:		wanif_cfg->hdlc_streaming=1;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:390:		wanif_cfg->active_ch=wandev_conf->tdmv_conf.dchan;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:397:	sprintf(wanif_cfg->usedby, SDLA_DECODE_USEDBY_FIELD(TDM_CHAN_VOICE_API));
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:403:	sprintf(wanif_cfg->usedby, SDLA_DECODE_USEDBY_FIELD(TDM_SPAN_VOICE_API));
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:442:	wanif_cfg->magic = ROUTER_MAGIC;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:445:		wanif_cfg->u.aft.sw_hdlc=1;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:446:		wanif_cfg->u.aft.seven_bit_hdlc=1;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:449:    wanif_cfg->u.aft.idle_flag=0xFF;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:451:	sprintf(wanif_cfg->name, "w%dg1", wp_number);
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:462:    if (!wanif_cfg->u.aft.mru) {
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:465:			wanif_cfg->mtu = wanif_cfg->u.aft.mtu = wanif_cfg->u.aft.mru = 320;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:468:			wanif_cfg->mtu = wanif_cfg->u.aft.mtu = wanif_cfg->u.aft.mru = 240;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:474:		if (!wanif_cfg->active_ch) {
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:475:			wanif_cfg->active_ch = 0xFFFFFF;
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:483:		if (!wanif_cfg->active_ch) {
+api/libsangoma/examples/sample_data_tapping/Sangoma/Code/Sangoma/driver_configurator.cpp:484:			wanif_cfg->active_ch = 0xFFFFFFFF;
+api/libsangoma/examples/sample_data_tapping/regression/SangomaHandleLeakAnalysis/driver_configurator.cpp:379:	wanif_cfg->hdlc_streaming = WANOPT_NO;//BitStream
+api/libsangoma/examples/sample_data_tapping/regression/SangomaHandleLeakAnalysis/driver_configurator.cpp:380:	wanif_cfg->magic = ROUTER_MAGIC;
+api/libsangoma/examples/sample_data_tapping/regression/SangomaHandleLeakAnalysis/driver_configurator.cpp:382:    sprintf(wanif_cfg->usedby, SDLA_DECODE_USEDBY_FIELD(TDM_SPAN_VOICE_API));//TDM_SPAN_VOICE_API - span mode supported by libsangoma.dll.
+api/libsangoma/examples/sample_data_tapping/regression/SangomaHandleLeakAnalysis/driver_configurator.cpp:383:    wanif_cfg->u.aft.idle_flag=0xFF;
+api/libsangoma/examples/sample_data_tapping/regression/SangomaHandleLeakAnalysis/driver_configurator.cpp:385:	sprintf(wanif_cfg->name, "w%dg1", wp_number);
+api/libsangoma/examples/sample_data_tapping/regression/SangomaHandleLeakAnalysis/driver_configurator.cpp:398:		wanif_cfg->mtu = wanif_cfg->u.aft.mtu = wanif_cfg->u.aft.mru = 320;
+api/libsangoma/examples/sample_data_tapping/regression/SangomaHandleLeakAnalysis/driver_configurator.cpp:401:		wanif_cfg->mtu = wanif_cfg->u.aft.mtu = wanif_cfg->u.aft.mru = 240;
+api/libsangoma/examples/sample_data_tapping/regression/SangomaHandleLeakAnalysis/driver_configurator.cpp:406:		wanif_cfg->active_ch = 0xFFFFFF;
+api/libsangoma/examples/sample_data_tapping/regression/SangomaHandleLeakAnalysis/driver_configurator.cpp:413:		wanif_cfg->active_ch = 0xFFFFFFFF;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:408:	wanif_cfg->magic = ROUTER_MAGIC;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:409:    wanif_cfg->active_ch = 0x00FFFFFF;//channels 1-24 (starting from bit zero)
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:410:    sprintf(wanif_cfg->usedby,"TDM_SPAN_VOICE_API");
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:411:    wanif_cfg->u.aft.idle_flag=0xFF;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:412:    wanif_cfg->mtu = 160;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:413:    wanif_cfg->u.aft.mtu = 160;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:414:	wanif_cfg->u.aft.mru = 160;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:415:	sprintf(wanif_cfg->name,"w%dg1",span);
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:421:		wanif_cfg->hwec.enable = 1;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:489:	wanif_cfg->magic = ROUTER_MAGIC;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:492:    wanif_cfg->active_ch = 0x7FFFFFFF;// channels 1-31 (starting from bit zero)
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:495:    wanif_cfg->active_ch = 0xFFFF7FFF;// channels 1-15.17-31 -> Active Ch Map :0xFFFEFFFE (in message log)
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:498:    sprintf(wanif_cfg->usedby,"TDM_SPAN_VOICE_API");
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:499:    wanif_cfg->u.aft.idle_flag=0xFF;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:500:    wanif_cfg->mtu = 160;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:501:    wanif_cfg->u.aft.mtu = 160;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:502:	wanif_cfg->u.aft.mru = 160;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:503:	sprintf(wanif_cfg->name,"w%dg1",span);
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:509:		wanif_cfg->hwec.enable = 1;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:599:	wanif_cfg->magic = ROUTER_MAGIC;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:600:    wanif_cfg->active_ch = 0xFFFFFFFF;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:601:    sprintf(wanif_cfg->usedby,"TDM_SPAN_VOICE_API");
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:602:    wanif_cfg->u.aft.idle_flag=0xFF;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:603:    wanif_cfg->mtu = 160;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:604:    wanif_cfg->u.aft.mtu = 160;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:605:	wanif_cfg->u.aft.mru = 160;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:606:	sprintf(wanif_cfg->name,"w%dg1",span);
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:612:		wanif_cfg->hwec.enable = 1;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:651:  wanif_cfg->magic = ROUTER_MAGIC;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:652:  wanif_cfg->active_ch = 0xFFFFFFFF;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:653:  sprintf(wanif_cfg->usedby,"TDM_VOICE_API");
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:654:  wanif_cfg->u.aft.idle_flag=0xFF;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:655:  wanif_cfg->mtu = 160;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:656:  wanif_cfg->u.aft.mtu = 160;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:657:  wanif_cfg->u.aft.mru = 160;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:658:  sprintf(wanif_cfg->name,"w%dg1",span);
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:664:    wanif_cfg->hwec.enable = 1;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:714:	wanif_cfg->magic = ROUTER_MAGIC;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:715:    wanif_cfg->active_ch = 0xFFFFFFFF;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:716:    sprintf(wanif_cfg->usedby,"API");
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:717:    wanif_cfg->u.aft.idle_flag=0xFF;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:718:    wanif_cfg->mtu = 1600;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:719:    wanif_cfg->u.aft.mtu = 1600;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:720:	wanif_cfg->u.aft.mru = 1600;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:721:	sprintf(wanif_cfg->name,"w%dg1",span);
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:723:	wanif_cfg->hdlc_streaming = WANOPT_YES;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:841:    wanif_cfg->mtu = mtu;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:842:    wanif_cfg->u.aft.mtu = mtu;
+api/libsangoma/sample_cpp/sangoma_port_configurator.cpp:843:	wanif_cfg->u.aft.mru = mru;

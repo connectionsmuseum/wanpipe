@@ -1030,7 +1030,7 @@ int wanpipe_tdm_api_kick(wanpipe_tdm_api_dev_t *tdm_api)
 }
 
 
-int wanpipe_tdm_api_is_rbsbits(sdla_t *card)
+int wanpipe_tdm_api_is_rbsbits(sdla_t *card)  // XXX SA rbs timeout?
 {
 	wanpipe_tdm_api_card_dev_t *tdm_card_dev;
 

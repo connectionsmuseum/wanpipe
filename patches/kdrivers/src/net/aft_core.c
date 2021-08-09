@@ -12996,13 +12996,13 @@ This conversion is done in te1 sources.
 #endif
 }
 
-static int aft_poll_rbsbits(sdla_t *card)  //XXX SA poll the card for RBS bits
+static int aft_poll_rbsbits(sdla_t *card)  //XXX SA poll the card for RBS bits? No, this happens elsewhere?
 {
 	unsigned int i;
 
 	WAN_ASSERT(card == NULL);
 
-	if ((SYSTEM_TICKS - card->u.aft.rbs_timeout) > HZ) { // XXX SA used to be HZ*2. HZ=250 on our kernel
+	if ((SYSTEM_TICKS - card->u.aft.rbs_timeout) > HZ*2) { // XXX SA used to be HZ*2. HZ=250 on our kernel
 
 		card->u.aft.rbs_timeout=SYSTEM_TICKS;
 

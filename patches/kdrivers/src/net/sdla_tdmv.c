@@ -204,7 +204,7 @@ typedef struct wp_tdmv_pvt_area
 	unsigned long	rbs_rx_pending;
 	u32		intcount;
 	unsigned long   rbs_sanity_timeout;
-	unsigned long	rbs_timeout;
+	unsigned long	rbs_timeout;			// XXX SA
 	unsigned int	brt_ctrl;
 	unsigned char	hwec;
 	unsigned char	echo_off;
@@ -2019,16 +2019,18 @@ static int wp_tdmv_is_rbsbits(wan_tdmv_t *wan_tdmv)
 		return ret;
 	}
 
-	/* Check rbs every 20ms */
-	if ((SYSTEM_TICKS - wp->rbs_timeout) > HZ/50) {
-		wp->rbs_timeout = SYSTEM_TICKS;
-		ret=1;
-		return ret;
+	/* Check rbs every 20ms -- nah, every 8ms  SA  */
+	/* XXX SA HZ value on mmullins kernel now 1000*/
+	if ((SYSTEM_TICKS - wp->rbs_timeout) > HZ/100) {	// was > HZ/50
+	   wp->rbs_timeout = SYSTEM_TICKS;
+	   ret=1;
+	   return ret;
 	}
 
 	/* Wait for the next time */
 	wan_clear_bit(WP_TDMV_RBS_BUSY, &wp->flags);
 	return ret;
+
 }
 
 /******************************************************************************
